@@ -7,7 +7,7 @@
 			"$className": "ServerScriptService",
 			"$ignoreUnknownInstances": true,
 			"ProfileService": {
-				"$path": "ProfileService.lua"
+				"$path": "src"
 			},
 			"ProfileTest": {
 				"$path": "ProfileTest.server.lua"

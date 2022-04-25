@@ -1,7 +1,14 @@
 [package]
 name = "ruizukun-dev/profileservice"
-version = "1.0.1"
+description = "ProfileService is a stand-alone ModuleScript that specialises in loading and auto-saving DataStore profiles."
+version = "1.0.4"
+license = "Apache2"
+authors = ["loleris"]
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "server"
+
+exclude = ["*"]
+include = ["src", "src/init.lua", "src/init.meta.json",
+"default.project.json", "wally.toml"]
 
 [dependencies]
