@@ -1,3 +1,5 @@
+-- # selene: allow(shadowing)
+
 local SETTINGS = {
 	AutoSaveProfiles = 30,
 	RobloxWriteCooldown = 7,

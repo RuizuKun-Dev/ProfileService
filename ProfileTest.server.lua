@@ -1,3 +1,5 @@
+-- # selene: allow(unused_variable)
+
 local SETTINGS = {
 	ProfileTemplate1 = {
 		Counter = 0,
