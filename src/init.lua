@@ -471,9 +471,7 @@ local function StandardProfileUpdateAsyncDataStore(
                         end)
 
                         if success == false and type(error_message) == 'string' and string.find(error_message, 'not valid') ~= nil then
-                            warn(
-[[[ProfileService]: Passed version argument is not valid; Traceback:
-]] .. debug.traceback())
+                            warn('[ProfileService]: Passed version argument is not valid; Traceback:\r\n' .. debug.traceback())
                         end
                     else
                         get_data, get_key_info = profile_store._global_data_store:GetAsync(profile_key)
